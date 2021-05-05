@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Project 68</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#">DEVARSH</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#school">St.Xavier's School</a></li>
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievments</a></li>
+                <li><a href="#whats_new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+              </ul>
+            </div>
+        
+        </nav>
+        <div class="announcement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask querries on school@gmail.com ***
+            </marquee>
+        </div>
+        <iframe id="video" src="https://www.youtube.com/embed/9Frow8HMh74"></iframe>
+
+        <div id="container">
+            <div class="page-header" id="campus_life">
+                <h2 class="text-capitalize">Campus Life</h2>
+
+                <div class="row">
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Interior_of_St_Andrew%27s_Catholic_Church_in_Roanoke%2C_Virginia.jpg/220px-Interior_of_St_Andrew%27s_Catholic_Church_in_Roanoke%2C_Virginia.jpg">
+                        <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">was established in 1978</h5>
+                        <p class="text-muted text-left">The St. Francis Xavier's Cathedral also St. Xavier Church is a Roman Catholic Latin Rite shrine located at Kottar, Nagercoil in Kanyakumari district of Tamil Nadu state, India.</p>
+                    </div>
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                        <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">was build in 1980</h5>
+                        <p class="text-muted text-left">The serene ambience inspires a love for reading. Information at the click of a finger tip invites the young users to delve into the magical world of words and the wealth of research material available.</p>
+                    </div>
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="https://archello.s3.eu-central-1.amazonaws.com/images/2020/04/20/01-VGIK-UPA.1587376767.9312.jpg">
+                        <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">was build in 1982</h5>
+                        <p class="text-muted text-left">An auditorium is a room built to enable an audience to hear and watch performances. For movie theatres, the number of auditoria (or auditoriums) is expressed as the number of screens.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="page-header" id="achievements">
+                <h2 class="text-capitalize">school acheivements</h2>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate In Environment Pollution <i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="school_achievement1" class="collapse"></div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="imag-responsive imag-thumbnail">
+            </div>
+            <div class="col-lg-9 col-sm-9 col-md-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">won first prize in inter school debate on environment pollution</h5>
+                <p>Write about  this achievement</p>
+            </div>
+
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+                Inter School Football Competition <i class="fa fa-sort-desc"></i>
+                </div>
+    
+                <div id="school_achievement2" class="collapse"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgWFhUZGRgaHBwcHRwaHBwfHB4eIRoZHB4cHhoeIS4lHB4rIxgaJjgnKy8xNTU1HCU7QDs0Py40NTEBDAwMEA8QGhISHjQhISQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ1NDQ0NDQ2NDQxNDQ0NzQxND80NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBAUGB//EAD4QAAEDAQQIAwcDAwMEAwAAAAEAAhEhAxIxQQQFUWFxgZHwIqGxBhMywdHh8RRCUiNicjOSsoKiwtIHFoP/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACERAQEAAgMBAQACAwAAAAAAAAABAhESITEDQVFhEyJx/9oADAMBAAIRAxEAPwBafavZaPtWmSLSjrP4HZXaT4i0j92RFQYXNaS4uc4lpFaiIIOcjYDn1ha2lzaPvQCSTMCMSMp5nes600M/FfaMc4iM5XPfbeV7VGMF7GnnH1zUjnuY7wwQdsdyoWvH7m82kDyiOkKw0MLb0ugbRwzB2uHVWJ6TbbJwqPzzWgy1c1hJdAtAAboiQC122lWgrPY1pNHTnn64K1AqOBocwIw5oTx1fsRcY91q4m+LzXSQJBu1giSZrjmaLtHFoa4BphwcRSRJmYuzmeS8uZbva5t3wSAHbDXHDZO3Er0/QHX7Jov12DEGSREgRHTLBdMarD9nLJrzpT6F/wCoeQNogU9V12j6QHta6RUV4ih6GVx/s1LTpDZmNItBG0AZHdEhdTobgAWgU+IUpXGNtQT/ANSu1W3Na4QRIXJa99mWBxt2AUINwNESBApgBGMRgNi6poGwIwAl7R45pOqHv0e00l83WxdBoZc8NjDCII3FdDqb2Fa4Me53iAEjFt4Ema8R0zW77aMHurGzaP8AUt7NsADASTyEBdBo1gWtF2CMucZrIy7TUdlZ6PaQBNxxrtDPsqX/AMguJsHNiBdM0oagAHZ3nC6HWLj7p4pVsdafNYftlYh2jWzrsCG4RUhwzE4Y12KjhPYXQ2WlqbG0YCHC81wycATdneJMbQuq9ofZOzLLrRAkuluJIBzzocN+4K37E6rY2wZaOHjdDgTyLfRdb71pEGOEhRNvDdY+zFrYwHxgSThEGsfy+JvXcgZqW1uPc1pLGMDnEGvw3nAVyuk1xkZL2PWuh2Nu1weJui8T/GGnHfBnouW0myFholo1pkPYJpmaXWmZPxZbVKR55qbQTavultSHXQ6QHULiwYS4gyK/tzWpp2q36M4tcyQC0TAiTzNJp+V13/1w2VjItGX23HhtKvBbUnldAIzOZW/pOrWvYaMJI/ayrTINIdEyAY3boRdPNdE0pjj4mtHMtJx2RjCvXy2C2gIBEunGYg7MduG1Drj2atLBoeG3hOIpStbuOyI2OxiViutS0hwwwjIET6yppNu61I+0exrAQWPtLpbsuD3hO79vG8Fqa81hYthosnWhpDooMcHZGmAiaxguI9n9YljifeCzo8+L4SXXcQREeCp4cotN1o+2swx7SWMkBzJJJJPicamsCgjhURYq7rHWV+zuBpgg1vEz95xG9YGh6O97wGNc4yPhxpnTktO21aGANY73jHSSBN5uIqIoQI30MwKkbOwYxheC6+00d+1syGzAxOXDcqN9uuTo7DZODmuIAIPxDPCkGtT2Me203xXQ3bgWxgDJMxEGZlYdo97ySZMnH65TuV/QNFe0h7YvCQAXAESDJxjPjKhtGdKLzP7pgyBFTGeEStLV+nus3h7RLhWokCZFRsrnwVSysXMJ8DWki7iHAD+2Zqa/7jghZeDLsZycASNhpJzzPopoenez/tA21a0PcA8kgTAnDqeQquileL2bXNMEQTuA9ee7eF6LqXXNmLFvvH3TeIF43iazNJgSY5KpY6NZln4tKef4WTAP+t7yf+AU506zuF4cLomvOPXqsqw1nYttrYOe1slrQSQAA1jczTFxhE0321qiWY7XLJhjbR52Ns3x/ucA3zS/WaQcNGj/ACtWg9GyPNU08a0hpADmVAmoKz7Z5cBPoY3hSaSCBQlpBfh/k36qBlQJH3WMsdNZWW9H9yKdZmnTik+GtbNauwpk2PRSkS41kUjrlu7qlpMEDiSPKVlmeVSs4Bm7XcYHRG+3AdFZOFJG8HPyUgsScs5Cj0mxEy34j6zB4Zpsni1o1teIh4OOBioygjgur9ndfPDgy0MsAzoYn+Q+IrjG6M5wN7EGYIqZ35g/NXNFZcPwnb8REcwU3pZXofsraNf78gkA2z3A8SI40W0NIuvAL2isCdhyBzrhuO5eaat0q60EGHXi4EEg7884Cv22n2jzL3udslxp5q36yervT0Z+lNa4NcRedgJM+il97uK4RjmvAki+Xtmhn/UFAQcIPktk6xa2JY90Ct17wSZ+KJgNiMs5Wsc5Ztdp9d2k6Too/h7x5kZhnhPULV1TZmzZcdal4DjcvRLWftbI+KBmark9F0x1pprIeR/TAFRQueJAvM8UA4bsV1psbSYNow/5Mqf+8DyW/VS6xf4Mqvsx1tGN+ap+1RjRrXDxNcOZY4fRLT7F4a2jDL7PCWYWjDkDsWZ7UuebC0aWRdFm+RaOcK2kQQ5o/j5ojoNStuaPYt2MYP8AtCuudlAJ2d5LN0d5DWgi0bDQIutcMP7AUZ0toxtWNP8Ac2D5uBULBaZZw0MaBee6tMvidI2QLvNc3re1ba2uj2DGh113vH3a3g2YEihDjJPALU0y3Fo8A3SAMnACDBdjQ4M2rA1K+/aPtQ8Auo0eH4Wi40wYEEF2aiadCdGvNPheBkGVg8HgCAfRYmuNW2vuifeWl+fjMgAgHJplooKA9Vtt0i0EOc9gac7tKA7X1NNy5fXPtK5znMvNc0RDmiJOZBMzswS0c3p2uNKsXOY95c2o8V4yDLZE1qqDLeRLhM1jiAa0W5a6cy0kmyLyQ2t90iJOyINKZQs3SbIOJcGtaDkIgD5qSmlNmlMLqtMYUjljCQ0tkg3YcN1e4rzR2WgiZmgJGWMTtTN0AEl2NcCrs1RP1nLaEgA4xE79uIV1muL1kWA41d4STShwwFZ5qpa6BLQR/cejQduJQM0EBomLxqPEB+Z3VVF1mlNiCZ5dFLY2wFOaybS0NLzrxjGZJFcwK54lAdLDR8MnCs+VaHDoom3QOc2RUjd3wUGlWboL5pMEmgk4Cu4FYj9KeBAOIaaUyB6VUllp72sLKQ4gmgmQCBlhUpotaP63wgXpiaCorvzNdpy2JP1i98Z3RAnZMxAjDjks6ztmkERNdsHuil0Z7gDUgCuGMTEwdvqmjbZ0O0JDr159JuscRdMxLoG+alHo9ubF19obJLmgyCfiM74hoqQsxmmgMLYbJDgSJEgxMkGueOCEW8GJiABTKFlrfTtLP2lLDeLy97gJJaAR/bs2V3FdNq7WtpaMvBrImK3pwG6vFeTstQKxJBzw6GnJWtI1k8keMCAABGQCdxnpkaaaO/yd5lijs3AmMIOG3xYordxFmHzQkiomcuP7QOaqvgOBJpIJ4T9o5Lef4zcp7P6TtfWb1SO5QaQSADx9R9uqCwcLjm3oN9tJFRdeDjvjqpdLJF2TMgGaQfFtGWCxcSZTVHozWtE1k97VI0C8SB+1ueJl+BVZ1pGRMmAA1xJO4CSUJfBONTTIip2juVjis8XrK1I8JcMZIIJG7zhMwiSXT0+ije7w3oqQDMtn4nNNAAMh2VB718SJiJxyrlO5XW4Ve0b4WiR8MgHn9Vaaw4yI2giK1xlZdvbRAugtgYxjj1wUdlZteSBAwiHxMkCK4+tFjL57uytyvQiPzyBU3vHEknHP0xGJWAHtqA58CaEmRiRIFdiv2D3saCXl1aAfCMaUx3cFjjZ0v5Ghq7SLr3SMGtiIkGtRvpsWrpWu7FwNm82hN6QZbLajwgwcfhLSKgrlH3nF0ECDUmmQMB2I+IKnY6M8mSRSXG68EiIy20+S7Y2zo26Ye0lq2Gi0bZsYWmolxc2kgOkYg5bKZrQ0/Xr7Wzex0G+LMTua8uHquCe4tcH+8BJMyLuBzqQQcoIWvoGlueIcQZLZMtJNd2AEHqtykr0lvtCXMoIIgOAxEA4TOzPapNH04mr3jEwJph3STmuA0fWFx7Xhx8MGhzzrHJWNM1p70MIZdgOkzOJLjljB8lZ6srb1npjBYuc24XWnhGBNZkjeAcdoC53SNKDAxpIENE+EREm7O00naZ4qnpWlFwGJikeQFADykpmM97pAs3CgJYCQcGiJEEfxWpNly/hK7TS8BpOZM4GpmpH1KNhAqYJP8qgb4EHPaoLNgAJAFHOAxmGkianco32Bd8RONB0XDLrLRNpRpxB8LRTfGzKN/kpw0tqYFb2M5z5SoNGtmMPwXhQxwIOXMc1LLXUuEXpJMkuqXftwGIHBu9axl/VUtBL3uN0TefBLjSfFWAJNPVdk/wBlXPDXNeQCBADRgRMxlgaSuc9mbjPE+JD5GNQGvnA4y5vTcu2br9guNEhxcWho/bN8DHERB2VG1arTh9aahtbFjnuMtF9tOHpJI5KTVmrLe2ZdY+brRDXkxdAJ8M0iop9F2ntZbsbozmSJuvAH/wCbwOhIrvlWLO0FlorHsaAG2UlwBLyQ1raNzmDnjFKpvpLHlWlueHOY8iQTOBrmZ2qAsI8Pf5XUa50cWukNiTaOaIaczdvNN9/xNN4VJPFY50h4tAXsaCJZBaKGSCYEeIHPcEjFx7O7RbG6bz3+9cQxjGNrNAw1+KYwG0cDA/RXsfFwkg3ZcHXZBILRkZIjbwK0hrJosyC17SHNeMDBaL0icy5rN3SDn2msXvYG3pBrAaBBk8z8RSbLpXs7Ig3iJxpTzUjrpE1bwjzjHFV32sVgnCtMpiVKx4dOyhjFaZOxmBBoYwRWwN4yRiaE1xyQaMWB4ABmZiTlXBPdaQMBXbJ4dhGvwTdIGERhmpmYUIjgfqoHsEXqyOn2KIWhFPHu4KJs1uf6DNzz/wCRVBsxGIOXqMPPbC0rXR/6ONS8YxT4/qqLbODUiOH2W8spXLvr/itaNruxVnWUf0hss2+pQnR3HCHdJ6BTabo7nXIZMMa08QTIx4LO4mOPVTez7WFzg5szgfUA/tmceCzNJLg9wMjxvkHGJEK7oVi+aF7S03oHwkBrhFTmS1Q2+guLneAwXONCMyThEhdM88csZJ+Ljhcd2/qq3SXgAXqZTWM6cypH6Y/AuEZm62YzrEojohH7H/7SfQIHaPWYdzb91zdJderWkuY1ge1rCXurIN6YMm8CJGFMFHoWsHX7rWeItveEZCandHokHxZMm6Jc/wAOJAAbDowBN6a7OaOwdea+9dbDaOAIxo0UGBrjvUs43Ve6/HD7W5YXUknRWD2eIkEwCSDWZ7Cf9a2IDTJxwjoAOKqiy8L4e0ugC6JoLzay6AqrLJwcDQxsc0noCrxleLK600Hac0Nc0isnEU2Y4g0BVJluKyZMRWSct6rWjH3j4HR/ifous1B7KNdddpTnNLxeZZAhrnNj4nzVoqKCu2MFqYb8Z3WVqXSGPe4hhFxrzMuxDHkHGh8MRv3LWbphdHjDiSKOaxxji4Err2+zejOYWMZ7skOa17ZqS1zPGHVdQHGu9ecWFqC6zP8Aa0+pHqmWPG6bnm2yx7ntJaxj8YhgEgZ+CIxGHRWGi7PgYImbvvBECsi/TOsZhZGja0bYwSC5rA6QInHflCk021vvJEiTMGQYykcIVuOPGWXsktv9LkC81w8NGviu4xWdnmo9G09li9jnSXwbowvEgtqccHbFW1k9zrcMaTIDGCpbW42ZPElTWljZsexgLLVwiXGSWvJhwDjlF2tcU42Tl+Ovx+N+uXHGzet9nsbd7RFMScNpLsQd+xSHTCIJaPP6FZdvrN7HvZSGPe2YEG64iRGVPNR2esC4ya48uQ7os67c7Wz+sa6DQHaCMjgQRuVjRdIYKlwpTEbt6wrHSIyocAcKF0/8grdpbgNa4CZEmhABki7OdADzTSxesbRgwMNr6N+6kt7VsSD5H5rGfbXmGkS6m6n2RC0AoZIA+3yRMqvaTpN9raz4SJ4lv0WlpuvD+nbZOJPja6RBJa3KThGWKwWQQ5wkC80V/wAHn5KvbWrTF0nms2bqXLTR0nSL5aXGbrAAQTIoaE4SOQVc6VecS6pqS4klxIBMknNV2WzQIJMwYAEknYN6sWmgvsr18C9cDpBBBBOUcCOIhNVJd1C94lpyjDbyQMeAZu7KCUDLdxcBTjymN/BG+tBGyaUrhuwWmNjFqH4sMRjn91H7mtM8Dh1KdhcDiafxg/gQne8GpeRuIpln+VF2Ozs3MaXOBgB2NKxEVzMhBZ3SJ8Q345jfX1T27brS8uEOiroIxmKAzyHoq7H08DmlpzDQKiKEFo2jqo3fI0GBok35kGBWck3v3dyqwY4n9tTk1iq29v4jQf7WfRGXUNa3+IRAAYCOCNsJ5C5CNxnEk8a+qGN55KaRuSpuQQBuNZnbHeSV0KctCYtam0QXAnDdylut7KKm1BXs7OGAAGBQm6RWAOdGjb5FZerQTbWjHR4ZjeLwihzw6rcc4EFpmDBMUNA4Ygzg4qpqvVzbFtCS51XVLqnK8WgkDDfjityyS7m3XH65Yy6ut9UZ0Rn8W9Agfq9h/Y3orxHHomIWZlXNmO1fZs8d0C74prlXDPBbOrLI2mke9L3PNwgOJxaYAMZGs8Sq6yfaixd+mcWB3hc0+GaS67llVbxzssV6LpLyxlmQPDfDTwLSPJeft1TQeI0HeIWT7LWlsH2lnfebj2SC4wC18PoZAN0OrC6sNVzztq+RkP1ZAMC8T/iIkgE4ZCTEorLVsEFxNDNLtcIGFNs1nCBitc2e9CWFY5U3WDrjRnhz7RhbJcLpIcDJgBt2oJkwNqs6FqC0c9jbzC5wbIkxhDpcB0or+k6O9wBaAS0gg18JPhvYxQFyay0BrWXGCM9vim8Dhthb/wA2Vx43x0+X0vzsznvjnzqaJBY+hij2f+qjdq5wmGPHQ/RdQ1t4AlsEgGNlMEVzcs8655e1yrNX2hMBrya4MJ44HcnY17RDdskuafoV1Is4wJHAx6JvdhXntNuWcDdbhi4mJp8MRTik5pyrzHzK6g6O3coX6Aw/tHKinImXbDbIsq0l9JIybG3+7zVEtrUc10r9WtIAkwCSN0xP/EKs/UwODvJa5xMu2TY2zLwLiBBvSRFG1xmppEcFtax0xlpYBzXNcYuuAIMeNrgKZxe6Kla6nswQ172kvkNBMOmJDgM4hENTf0vdsMEPvOMzNDhs+IdFrnNaMcazXAxN6BSZpCa+0UJneCKdc1Zf7P2uRB5qs/Utu39s8CksYuOURi3gkXjHeUqW+1zYF7LhKZ2hWv7rIngK9QkdGdIlrm12OgDaeG4clemeNWH3G2Ba81LiQP3Dfuwiu0qtoj5aGsIoCbpxJkkwYg0ih2KrrnRHWLx/Us3h0kFjnGACB4g5oLTXDcVX0a84wCRQ1AkgRUxIlauMdO9aarbWWwPND/TzBnr5obazDXkMvObSrmxJgSQATAmYrgheCTNfNY0z268IS1GlK87QAE9woiU0lAxs96G5sKeSmJQEAihAhEoqaEg5QElM5xQWA9K8q4nahIPcoqyCrGg6Uwi9dktLhdJoCCakZggAg4QVm+5c4EHA0xOGGSksrIgkziINTWCSCZzqa71nPGZTVdflnjjMrZu/n8LlqxhtHWjLNrHOADroAvQSQSBSaxyCdRNclK1JqacrdpbxSc9RSilENNZT3ztTQhVVI152k8eqL3hUQTyglD00oAnRBSiEKKU95BOEi0blCHIg/ggI2Y/j30UbbNrcGgSZMDE7eKkbaJw4HYU2BBO1FeOYCRaEJZsTa7pEjNqg0q0AaSAZgxxyU90qG0aHRORB5hWLMq8/1sbts5pFWwPK9Nf8loey9hftp/i1zvRv/kpNaamtLe2tbSzZMRIJaJpdBbXY3OMVrezGrvd2Zc9kPcTM4hooBuwJ5rty/wBS42XeTV/Tt2Dom/SN2DoFOHHafX1TXju6fdcnSZ4/wq3kSEAp2t3LDgSQG5Ll31ShAqJFPCeOyiwjvTQlCjc9A7jKEhCHd4okIZOw7e+iZxTCpA+iCyxsBJvLPLemTygJDKV5MUUQSlDKYPVQYKcoQ9KUUpSlIBNKAphIvQSnlAd/cleQEp5RBylKAOSvIaGHJw8bVHKVMwgnnf6pr6hJCGVBZFrCe/Kqyo3sJz8yroZuq/8AWe0MDmue95JxDb1IPHZtW8WBZ2rtHcyZDSTFQTgMoIr1yV+8Vdu/3+kzs4+SHulJMHp729NuCibRFf4+SC+lPJZQRtN6cO2E8EM5JA8kUZedvkmD4ivmo2uCIACsdKoQbiIFe/qhMDPqkDngnid/e1Cgc4H8EpSncYy+aC8EQplHozpJ3ffckRWqVgcTMScyirCGNmCYk9z9E15A4dt75pF6YuSIAQOO6JSEwckqCSnufkgJ5JA7kIlvJSgCcqKRKSdzUz2kbeiqFKcFB3gnEoDQIiUpBzRTNCJD7s7Z6fVMeXVEGUITF3f4RAoEAknjspwECBThMWpkVICmnefJDKa9vVFOoyRk8FCHHd0TkZTHT8rLKQztCZpOaY/hSMbmROzFFIHuvzATTu779FKSdnz75wgqN6B7pGJHfJIxWJ+SYu6oSZwE1rXqcMIQOQNqdliXfC0u4CfshLcO+wkXZGvQfYogbcR4Yg4RhnUYeSlZQfIfJV6XgI8vop2jDv5Ioy7d5pSTIj7oCd/ySa44T5+aA24IZ3Dmhcap43SO/NFEcaBNs+cJnicqRNY8pzTnDv5Kpo0bvJOQmDqiMEwKKkJSQHjHfFNIREl87E4zwUU5eqLbgiiKUoJ7HzSDieWf4REhTFRyEhzQSBOFGZG1MXHj5FAZZw9E0HakH8QkWoDByThyGJQ1QS9UiCgDkQegSYozB2dENzegownPfcfRPI/B4IWi9Wc8qTzlREjWGJmaYAepyRPNd8ViU4fy2ff8pNdFYmN1D5opy6P3cvukGkzJp084TNdzx48vunpwjZ33VA/uxGfcYbkDqfn7YYpGMnTx9Eie4pnh3tQA4jbspXGYMV4ZZJrzTjw7qpA89wmZaVERy57sN6qI7NovTepNK9zKnFoBt7qnc4CKcxxogIESftvHkop3PnON3dSk4Zd+vzTNY3KOFMvNM9uEc++OaAp217xTNA3cDJ6SUQcTX6fLFOR3QoE05AR5IHM7jyEJy6Pp+MEnOGU/LDHFVTO4nn54nFOCT98/ohc8kZd0xTNd0jL6ICIHLekeEjl2UzgMx3QjmmaO5+yBweOzIJUjEjp35po4eaTXHf3vQSOaafLuqY3uez5bkLBGdPnG1IjaeqA73XvegJPHjs6p27I6V29EFow7fL5oJGnvFOT+PyoZ3c9vRSF1emaIMbClOUoeZSnaAgkLuvzTwfRRF3DgnY6cenZRBxwTIX8e/qga87vmipZTe8O7z+qYvHeKGm/vkiImMk1z59iVI4HEGeE8c0klAwAkd8u9iK5x2Y88BkkkinLI3c6cwcUzHZmJ5COOf5SSShNcThBIyHkKJnzviTOFI3pJIHIB+dE7YaM99PUcsYSSQI7hXZGCZzqgkdDy+SSSAbuzzEb8eUInsoTMYTjjtOxJJUQseTGHWedMVKR+fwkkoHpGWOX3TOJiB5TPzSSVAWbvXf32E7hO2d3eKSSBSOmNT54wKpBsVp3vSSVULTwx5fZSEjCPr3XzSSQMJxjvgnvjfXckkgcd0+mCRIwySSUAFkUFe6+iZ07YPHikkgNrt0+nkna8be9iSSBX8kDjySSUQmHbBG/migT35JJKhNEH4cN2PLvFF4f4jy+idJVH/9k=" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-sm-9 col-md-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">came second in inter school football competition</h5>
+                    <p>Write about this achievement</p>
+                </div>
+                <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement3">
+                    Inter School Science Project Competition <i class="fa fa-sort-desc"></i>
+                    </div>
+        
+                    <div id="school_achievement3" class="collapse"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                        <img src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/12893/2019/8/13/St%20Xaviers%20High%20School-Science%20Exhibition.jpg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-9 col-sm-9 col-md-9 col-xs-12 movie_text">
+                        <h5 class="text-success text-left text-capitalize">won second prize in inter school science project competition</h5>
+                        <p>Write about this achievement</p>
+                    </div>
+            </div>
+            <div class="page-header" id="whats_new">
+                <h2 class="text-capitalize">What's New</h2>
+                <hr width="100%">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-success col-lg-12 col-sm-12 col-md-12 col-xs-12 environment_li">
+                        <h4>New School Canteen</h4>
+                        <img src="https://i.postimg.cc/bZcSmqsb/sc1.jpg" class="img-responisve col-lg-5 col-sm-5 col-md-5 col-xs-12">
+                        <p class="list-group-item-text col-lg-7 col-sm-7 col-md-7 col-xs">
+                            A cafeteria, sometimes called a canteen outside the U.S., is a type of food service location in which there is little or no waiting staff table service, whether a restaurant or within an institution such as a large office building or school; a school dining location is also referred to as a dining hall or lunchroom (in American English). Cafeterias are different from coffeehouses, although the English term came from Latin American Spanish, where it had and still has the meaning "coffeehouse".
+                        </p>
+                    </li>
+                    <li class="list-group-item list-group-item-success col-lg-12 col-sm-12 col-md-12 col-xs-12 environment_li">
+                        <h4>Implemented Online Atendance Managament System</h4>
+                        <img src="https://www.ubiattendance.com/images/employee-register-1.png" class="img-responisve col-lg-5 col-sm-5 col-md-5 col-xs-12">
+                        <p class="list-group-item-text col-lg-7 col-sm-7 col-md-7 col-xs">
+                            Manually taking attendance and registering it in files & musters makes the daily attendance a mundane task for the faculty and unnecessarily consumes classroom time.
+                            To overcome such inefficient work processes, there are various school software systems available to speed up the attendance process and reduce manual work. An online attendance management system or digital attendance platform is one of them, which is developed to automate the daily attendance in schools. Additionally, it helps to maintain accurate records and generate summarized student attendance reports.
+                            Student attendance software is designed to record & manage daily student attendance in schools to speed up the daily attendance process & reduce manual work. It is used to track student's attendence, absentee record, attendance history & other related documents.</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact_us">
+                <h2 class="text-capitalize">contact us</h2>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen="" id="map_1"></iframe>
+            </div>
+            <div id="details">
+                <img src="https://i.postimg.cc/RZM5c6hR/sp.png" class="img-responsive imag-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principal Name: </h3>
+                <h4>Mr.Xavier John Dcosta</h4>
+                <div class="contact_1">
+                    <a href="mailto:school@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;schoolId</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;9916001600</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
